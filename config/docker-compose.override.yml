@@ -1,0 +1,10 @@
+---
+version: '2.2'
+services:
+  sharelatex:
+    image: sharelatex/sharelatex:chiffon-1.0
+    build:
+      context: .. # the root directory of the project
+      dockerfile: ./src/Dockerfile
+      args:
+        SRC_PATH: ./src

@@ -6,6 +6,7 @@ tmp/
 
 config/**/*
 !config/.gitkeep
+!config/docker-compose.override.yml
 
 data/**/*
 !data/.gitkeep
